@@ -6,7 +6,7 @@
 /*   By: amounach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/03 12:25:39 by amounach          #+#    #+#             */
-/*   Updated: 2022/06/08 18:04:43 by amounach         ###   ########.fr       */
+/*   Updated: 2022/06/08 18:42:32 by amounach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memset(void *b, int c, size_t len)
 {
-	size_t	i;
+	size_t			i;
 	unsigned char	x;
 	unsigned char	*y;
 

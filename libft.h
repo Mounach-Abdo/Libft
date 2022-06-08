@@ -6,7 +6,11 @@
 /*   By: amounach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 10:19:18 by amounach          #+#    #+#             */
+<<<<<<< HEAD
 /*   Updated: 2022/06/08 18:31:05 by amounach         ###   ########.fr       */
+=======
+/*   Updated: 2022/06/08 18:15:56 by amounach         ###   ########.fr       */
+>>>>>>> 7d269da8efdd5f02a38fe5b251eb809dbf20c099
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -67,4 +71,9 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
 void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 7d269da8efdd5f02a38fe5b251eb809dbf20c099
 #endif

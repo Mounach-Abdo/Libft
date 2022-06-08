@@ -6,7 +6,7 @@
 /*   By: amounach <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/20 14:45:23 by amounach          #+#    #+#             */
-/*   Updated: 2021/12/07 23:15:22 by amounach         ###   ########.fr       */
+/*   Updated: 2022/06/08 18:05:44 by amounach         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,13 +73,11 @@ static char	**allocate(const char *s, int c, int words, char **arr)
 
 char	**ft_split(char const *s, char c)
 {
-	int		i;
 	int		nb_words;
 	char	**tab;
 
 	if (!s)
 		return (NULL);
-	i = 0;
 	nb_words = ft_count_word(s, c);
 	tab = (char **)malloc((nb_words) * sizeof(char *) + 1);
 	if (!tab)
